@@ -46,15 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlashButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="SwitchToggle.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="DmxSliderLight.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
