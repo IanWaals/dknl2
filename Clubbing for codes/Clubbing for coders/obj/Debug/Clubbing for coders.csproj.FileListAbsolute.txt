@@ -1,0 +1,11 @@
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\bin\Debug\Clubbing for coders.exe.config
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\bin\Debug\Clubbing for coders.exe
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\bin\Debug\Clubbing for coders.pdb
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing for coders.csproj.AssemblyReference.cache
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing_for_coders.Form1.resources
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing_for_coders.Properties.Resources.resources
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing for coders.csproj.GenerateResource.cache
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing for coders.csproj.CoreCompileInputs.cache
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing for coders.exe
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing for coders.pdb
+C:\Users\ianwa\OneDrive\school\appr\dknl\Clubbing for codes\Clubbing for coders\obj\Debug\Clubbing for coders.exe.config

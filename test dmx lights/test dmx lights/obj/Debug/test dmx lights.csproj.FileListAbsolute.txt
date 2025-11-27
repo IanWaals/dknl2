@@ -1,0 +1,11 @@
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\bin\Debug\test dmx lights.exe.config
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\bin\Debug\test dmx lights.exe
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\bin\Debug\test dmx lights.pdb
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test dmx lights.csproj.AssemblyReference.cache
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test_dmx_lights.Properties.Resources.resources
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test dmx lights.csproj.GenerateResource.cache
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test dmx lights.csproj.CoreCompileInputs.cache
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test dmx lights.exe
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test dmx lights.pdb
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\test dmx lights.exe.config
+C:\Users\ianwa\OneDrive\school\appr\dknl\test dmx lights\test dmx lights\obj\Debug\DMXControl.Form1.resources
