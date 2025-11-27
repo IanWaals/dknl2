@@ -228,6 +228,7 @@ namespace Clubbing_for_coders
 
         private void btnFlashLightsIwaa_Click(object sender, EventArgs e)
         {
+            //kkkk
             if (toggleFlashing == false)
             {
                 toggleFlashing = true;
