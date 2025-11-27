@@ -56,6 +56,7 @@ public class FlashButton : Button
                 pevent.Graphics.DrawPath(glowPen, path);
             }
         }
+        //comment hehe
 
         // Draw text
         TextRenderer.DrawText(pevent.Graphics, Text, Font, ClientRectangle,
