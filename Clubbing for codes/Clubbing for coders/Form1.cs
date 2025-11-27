@@ -1012,6 +1012,7 @@ namespace Clubbing_for_coders
             }
         }
 
+        //stop the show
         private void StopShow()
         {
             isPlayingShow = false;
