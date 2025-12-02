@@ -5,7 +5,7 @@ using System.Drawing.Drawing2D;
 
 public class ToggleSwitch : Control
 {
-    public bool IsOn { get; set; } = false;
+    public bool IsOn { get; set; } = false; // start OFF
     private Timer animTimer;
     private float knobX = 2;
 
@@ -21,17 +21,14 @@ public class ToggleSwitch : Control
         animTimer = new Timer();
         animTimer.Interval = 10;
         animTimer.Tick += AnimTick;
-
-        // Set initial knob position
-        knobX = IsOn ? Width - Height + 2 : 2;
     }
 
     protected override void OnClick(EventArgs e)
     {
         base.OnClick(e);
-        IsOn = !IsOn;
-        animTimer.Start();
-        Toggled?.Invoke(this, EventArgs.Empty);
+        IsOn = !IsOn;      // flip state
+        animTimer.Start(); // animate
+        Toggled?.Invoke(this, EventArgs.Empty); // notify parent form
     }
 
     private void AnimTick(object sender, EventArgs e)
@@ -45,7 +42,7 @@ public class ToggleSwitch : Control
         }
         else
         {
-            knobX += IsOn ? 3 : -3; // Slightly faster animation
+            knobX += IsOn ? 2 : -2;
         }
 
         Invalidate();
@@ -62,21 +59,6 @@ public class ToggleSwitch : Control
         {
             e.Graphics.FillRoundedRectangle(trackBrush, new Rectangle(0, 0, Width, Height), Height);
             e.Graphics.FillEllipse(knobBrush, knobX, 2, Height - 5, Height - 5);
-        }
-    }
-
-    // Method to programmatically set state without triggering event
-    public void SetState(bool state, bool animate = true)
-    {
-        IsOn = state;
-        if (animate)
-        {
-            animTimer.Start();
-        }
-        else
-        {
-            knobX = IsOn ? Width - Height + 2 : 2;
-            Invalidate();
         }
     }
 }
