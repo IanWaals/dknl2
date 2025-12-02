@@ -471,18 +471,13 @@ namespace Clubbing_for_coders
             tbcPagesIwaa.SelectedIndex = 1;
         }
 
-        private void btnOpenShowsIwaa_Click(object sender, EventArgs e)
+        private void btnOpenTimelineIwaa_Click(object sender, EventArgs e)
         {
             tbcPagesIwaa.SelectedIndex = 2;
         }
 
-        private void btnOpenTimelineIwaa_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e) 
         {
-            tbcPagesIwaa.SelectedIndex = 3;
-        }
-
-        private void Form1_Load(object sender, EventArgs e) {
-
             // Your existing code
             // Reset toggle switches
             cbxSwitc1Iwaa.Checked = true;
@@ -1330,7 +1325,7 @@ namespace Clubbing_for_coders
             driver.DmxSendCommand(19);
 
         }
-        
+
 
 
         private void trbMHredIwaa_Scroll(object sender, EventArgs e)
@@ -1431,7 +1426,7 @@ namespace Clubbing_for_coders
             {
                 GrbTilt.Visible = true;
             }
-        }              
+        }
 
         private void btnStrobeIwaa_Click(object sender, EventArgs e)
         {
@@ -1590,6 +1585,115 @@ namespace Clubbing_for_coders
         private void btnHome3Iwaa_Click(object sender, EventArgs e)
         {
             tbcPagesIwaa.SelectedIndex = 0;
+        }
+
+        private void trbRedParIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            dmxData[0] = (byte)trbRedParIwaa.Value;
+            savedDmxData[0] = (byte)dmxData[0];
+        }
+
+        private void trbRedParIwaa_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void trbGreenParIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            dmxData[1] = (byte)trbGreenParIwaa.Value;
+            savedDmxData[1] = (byte)dmxData[1];
+        }
+
+        private void trbBlueParIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            dmxData[2] = (byte)trbBlueParIwaa.Value;
+            savedDmxData[2] = (byte)dmxData[2];
+        }
+
+        private void trbPanAllIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            pan1 = trbPanAllIwaa.Value;
+            pan2 = trbPanAllIwaa.Value;
+            pan3 = trbPanAllIwaa.Value;
+            pan4 = trbPanAllIwaa.Value;
+        }
+
+        private void trbPan1Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            pan1 = trbPan1Iwaa.Value;
+        }
+
+        private void trbPan2Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            pan2 = trbPan2Iwaa.Value;
+        }
+
+        private void trbPan3Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            pan3 = trbPan3Iwaa.Value;
+        }
+
+        private void trbPan4Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            pan4 = trbPan4Iwaa.Value;
+        }
+
+        private void trbTiltAllIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            tilt4 = trbTiltAllIwaa.Value;
+            tilt3 = trbTiltAllIwaa.Value;
+            tilt2 = trbTiltAllIwaa.Value;
+            tilt1 = trbTiltAllIwaa.Value;
+        }
+
+        private void trbTilt1Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            tilt1 = trbTilt1Iwaa.Value;
+        }
+
+        private void trbTilt2Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            tilt2 = trbTilt2Iwaa.Value;
+        }
+
+        private void trbTilt3Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            tilt3 = trbTilt3Iwaa.Value;
+        }
+
+        private void trbTilt4Iwaa_ValueChanged(object sender, EventArgs e)
+        {
+            tilt4 = trbTilt4Iwaa.Value;
+        }
+
+        private void trbStrobeIntervalIWaa_ValueChanged(object sender, EventArgs e)
+        {
+            strobe = trbStrobeIntervalIWaa.Value;
+        }
+
+        private void trbMHredIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            red = trbMHredIwaa.Value;
+        }
+
+        private void trbMHgreenIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            green = trbMHgreenIwaa.Value;
+        }
+
+        private void trbMHblueIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            blue = trbMHblueIwaa.Value;
+        }
+
+        private void trbMHwhiteIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            white = trbMHwhiteIwaa.Value;
+        }
+
+        private void trbMovementSpeedIwaa_ValueChanged(object sender, EventArgs e)
+        {
+            speed = trbMovementSpeedIwaa.Value;
         }
     }
 }
